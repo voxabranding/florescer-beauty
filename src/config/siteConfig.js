@@ -123,28 +123,32 @@ export const siteConfig = {
 
   services: [
     {
-      id: 'cabelos',
-      title: 'Cortes & Penteados',
-      description: 'Cortes, tratamentos, coloração e finalizações que valorizam sua identidade.',
-      image: '/images/placeholder/service-cabelos.webp', // ⚠️ PLACEHOLDER
+      id: 'planos-mensais',
+      title: 'Planos Mensais',
+      description: 'Nali Premium (R$ 240) • Nali Cor da Semana (R$ 180) • Nali Premium Gel (R$ 300)',
+      image: '/images/placeholder/service-cabelos.webp',
+      placeholderText: 'Planos Mensais',
     },
     {
-      id: 'maos-pes',
-      title: 'Manicure & Nails Designer',
-      description: 'Cuidados completos para unhas impecáveis e momentos de relaxamento.',
-      image: '/images/placeholder/service-maos-pes.webp', // ⚠️ PLACEHOLDER
+      id: 'unhas-tradicionais',
+      title: 'Unhas Tradicionais',
+      description: 'Manicure (R$ 35) • Pedicure (R$ 40) • Combinado (R$ 60) • Combinado Completo (R$ 70)',
+      image: '/images/placeholder/service-maos-pes.webp',
+      placeholderText: 'Unhas',
     },
     {
-      id: 'estetica',
-      title: 'Estética Corporal',
-      description: 'Procedimentos pensados para renovar, cuidar e realçar sua beleza natural.',
-      image: '/images/placeholder/service-estetica.webp', // ⚠️ PLACEHOLDER
+      id: 'esmaltacao-gel',
+      title: 'Esmaltação em Gel & Assistência',
+      description: 'Manutenção e cuidado especializado para esmaltação em gel.',
+      image: '/images/placeholder/service-estetica.webp',
+      placeholderText: 'Esmaltação em',
     },
     {
-      id: 'progressiva',
-      title: 'Progressiva',
-      description: 'Alisamentos saudáveis que trazem praticidade e beleza para o seu dia a dia.',
-      image: '/images/placeholder/service-sobrancelhas.webp', // ⚠️ PLACEHOLDER
+      id: 'alongamento-unhas',
+      title: 'Alongamento de Unhas',
+      description: 'Alongamentos em gel, fibra de vidro e manutenções.',
+      image: '/images/placeholder/service-sobrancelhas.webp',
+      placeholderText: 'Alongamento de',
     },
   ],
 

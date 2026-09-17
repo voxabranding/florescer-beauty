@@ -1,22 +1,23 @@
 .image-placeholder {
   width: 100%;
   height: 100%;
-  background-color: #E2DBD3; /* Um tom de cinza/bege para o placeholder */
+  background-color: #E6E1DC; /* Light gray from screenshot */
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  border: 1px dashed rgba(179, 151, 91, 0.4);
+  border: none;
+  border-radius: var(--radius-lg);
   position: relative;
   overflow: hidden;
-  min-height: 200px; /* Garante que tenha alguma altura mesmo se não for especificado */
+  min-height: 200px;
 }
 
 .image-placeholder__text {
   font-family: var(--font-sans);
-  font-size: var(--text-sm);
-  color: var(--color-text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+  font-size: var(--text-base);
+  color: #9C948A;
+  text-transform: none;
+  letter-spacing: normal;
   text-align: center;
   padding: 1rem;
 }

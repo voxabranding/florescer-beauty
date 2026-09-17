@@ -4,12 +4,8 @@
   background-color: var(--color-bg-primary);
 }
 
-.services__card {
-  background-color: #FAF7F2;
-  border-radius: clamp(20px, 3.5vw, 36px);
-  box-shadow: var(--shadow-card);
-  border: 1px solid rgba(217, 195, 160, 0.35);
-  padding: clamp(1.5rem, 3.5vw, 3.5rem);
+.services__wrapper {
+  padding: clamp(1.5rem, 3.5vw, 3.5rem) 0;
 }
 
 .services__header {
@@ -18,9 +14,9 @@
 }
 
 .services__grid {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xl);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem; /* Reduced gap for mobile */
 }
 
 /* ─── Service Card ──────────────────────────────────────────── */
@@ -29,10 +25,10 @@
   flex-direction: column;
   gap: var(--space-md);
   position: relative;
-  background-color: rgba(250, 246, 239, 0.6);
-  border-radius: var(--radius-xl);
-  padding: 1.25rem;
-  border: 1px solid rgba(217, 195, 160, 0.25);
+  background-color: transparent;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  border: 1px solid rgba(217, 195, 160, 0.4);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
 
@@ -44,8 +40,8 @@
 .service-card__image-wrapper {
   position: relative;
   overflow: hidden;
-  border-radius: var(--radius-lg);
-  aspect-ratio: 4/3;
+  border-radius: 1rem;
+  aspect-ratio: 1/1;
   background-color: var(--color-bg-secondary);
 }
 
@@ -68,15 +64,15 @@
 
 .service-card__title {
   font-family: var(--font-serif);
-  font-size: var(--text-2xl);
+  font-size: 1.125rem; /* Reduced from 2xl */
   font-weight: 500;
   color: var(--color-brown-dark);
 }
 
 .service-card__description {
-  font-size: var(--text-base);
-  color: var(--color-text-secondary);
-  line-height: 1.6;
+  font-size: 0.8125rem; /* 13px */
+  color: #7B7368; /* Slightly lighter/browner gray */
+  line-height: 1.5;
 }
 
 .service-card__link {
@@ -84,11 +80,12 @@
   align-items: center;
   gap: 0.5rem;
   font-family: var(--font-sans);
-  font-size: var(--text-sm);
+  font-size: 0.875rem;
   font-weight: 500;
-  color: var(--color-gold);
+  color: #C09D6A;
   letter-spacing: 0.03em;
-  margin-top: var(--space-xs);
+  margin-top: auto; /* Push to bottom if content is short */
+  padding-top: var(--space-xs);
   transition: color var(--transition-fast);
 }
 
@@ -123,7 +120,7 @@
 /* ─── Desktop ───────────────────────────────────────────────── */
 @media (min-width: 1024px) {
   .services__grid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: var(--space-xl);
   }
 

@@ -10,7 +10,7 @@ export default function Services() {
   return (
     <section className="services" id="servicos" aria-labelledby="services-title" ref={sectionRef}>
       <div className="container">
-        <div className="services__card floating-panel">
+        <div className="services__wrapper">
           <div className="services__header" data-reveal>
             <span className="section-eyebrow">Nossos Serviços</span>
             <h2 className="section-title" id="services-title">
@@ -28,7 +28,7 @@ export default function Services() {
                 data-reveal-delay={Math.min(index + 1, 4)}
               >
                 <div className="service-card__image-wrapper">
-                  <ImagePlaceholder className="service-card__image" style={{ aspectRatio: '4/3' }} />
+                  <ImagePlaceholder text={service.placeholderText} className="service-card__image" style={{ aspectRatio: '1/1' }} />
                 </div>
 
                 <div className="service-card__content">
