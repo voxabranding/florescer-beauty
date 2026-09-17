@@ -1,0 +1,47 @@
+.floating-whatsapp {
+  position: fixed;
+  bottom: 16px;
+  right: 24px;
+  width: 68px;
+  height: 68px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  z-index: 999;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: floatBounce 2s infinite ease-in-out;
+}
+
+.floating-whatsapp:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  animation: none;
+}
+
+@keyframes floatBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+/* Responsivo para mobile */
+@media (max-width: 767px) {
+  .floating-whatsapp {
+    bottom: calc(10px + env(safe-area-inset-bottom, 0px) + 60px); /* 60px height of mobile booking bar */
+    right: 20px;
+    width: 58px;
+    height: 58px;
+  }
+  
+  .floating-whatsapp svg {
+    width: 32px;
+    height: 32px;
+  }
+}
