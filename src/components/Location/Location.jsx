@@ -34,7 +34,7 @@ export default function Location() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn--primary"
-                  aria-label="Como chegar ao salão Raiz"
+                  aria-label="Como chegar à Florescer Beauty"
                 >
                   Como chegar
                   <span className="btn__arrow" aria-hidden="true">→</span>

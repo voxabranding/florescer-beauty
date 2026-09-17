@@ -15,7 +15,7 @@ export default function FinalCTA() {
           <div className="final-cta__decoration final-cta__decoration--2" aria-hidden="true" />
 
           <div className="final-cta__inner">
-            <span className="final-cta__eyebrow" data-reveal>Raiz Beleza & Estética</span>
+            <span className="final-cta__eyebrow" data-reveal>Florescer Beauty - Estética</span>
 
             <div className="final-cta__gold-line" aria-hidden="true" data-reveal />
 

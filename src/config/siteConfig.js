@@ -15,28 +15,28 @@ export const siteConfig = {
   // ═══════════════════════════════════════════════
 
   brand: {
-    name: 'Raiz Beleza & Estética',
-    shortName: 'Raiz',
-    tagline: 'Beleza que começa na raiz.',
-    logo: '/images/logo-raiz.png',
+    name: 'Florescer Beauty - Estética',
+    shortName: 'Florescer',
+    tagline: 'Realçando sua beleza',
+    logo: '',
   },
 
   contact: {
-    instagram: 'https://www.instagram.com/salaoraizoficial/',
-    instagramHandle: '@salaoraizoficial',
+    instagram: 'https://www.instagram.com/florescer_beauty.b/',
+    instagramHandle: '@florescer_beauty.b',
 
     // ⚠️ CONFIRMAR antes da publicação definitiva — número identificado na bio
-    whatsappNumber: '558230278081',
-    whatsappMessage: 'Olá! Conheci a Raiz pelo site e gostaria de agendar um horário.',
+    whatsappNumber: '5562982676833',
+    whatsappMessage: 'Olá! Conheci a Florescer Beauty pelo site e gostaria de agendar um horário.',
   },
 
   address: {
-    full: 'Rua Cel. Adauto Gomes Barbosa, 692 – Jatiúca, Maceió – AL',
-    street: 'Rua Cel. Adauto Gomes Barbosa, 692',
-    neighborhood: 'Jatiúca',
-    city: 'Maceió',
-    state: 'AL',
-    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Raiz+Beleza+Estetica+Jatiuca+Maceio',
+    full: 'R. MDV 4, 1 - Moinho dos Ventos, Goiânia - GO',
+    street: 'R. MDV 4, 1',
+    neighborhood: 'Moinho dos Ventos',
+    city: 'Goiânia',
+    state: 'GO',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Florescer+Beauty+Estetica+Goiania',
   },
 
   // ═══════════════════════════════════════════════
@@ -68,12 +68,12 @@ export const siteConfig = {
   // ═══════════════════════════════════════════════
 
   hero: {
-    eyebrow: 'RAIZ • BELEZA & ESTÉTICA',
-    title: 'Beleza que começa na raiz.',
-    subtitle: 'Um espaço completo para cuidar dos seus cabelos, unhas, pele e bem-estar com atenção em cada detalhe.',
+    eyebrow: 'FLORESCER • BELEZA & ESTÉTICA',
+    title: 'Realçando sua beleza',
+    subtitle: 'Um espaço completo para cuidar dos seus cabelos, unhas, estética corporal e bem-estar em um só lugar.',
     ctaPrimary: 'Agendar meu momento',
     ctaSecondary: 'Conhecer os serviços',
-    location: 'Jatiúca, Maceió',
+    location: 'Moinho dos Ventos, Goiânia',
     badge: 'Cuidado & Beleza',
     desktopImage: '/images/placeholder/hero-placeholder.webp',
     mobileImage: '/images/placeholder/hero-placeholder.webp',
@@ -90,8 +90,8 @@ export const siteConfig = {
     description: 'Deslize para acompanhar a transformação e perceber o cuidado presente em cada etapa.',
     beforeImage: '/images/results/before.jpg',
     afterImage: '/images/results/after.jpg',
-    beforeAlt: 'Cabelo antes do atendimento realizado pela Raiz',
-    afterAlt: 'Resultado do cabelo após o atendimento realizado pela Raiz',
+    beforeAlt: 'Cabelo antes do atendimento realizado pela Florescer Beauty',
+    afterAlt: 'Resultado do cabelo após o atendimento realizado pela Florescer Beauty',
   },
 
   // ═══════════════════════════════════════════════
@@ -100,7 +100,7 @@ export const siteConfig = {
 
   trustItems: [
     {
-      title: 'Atendimento cuidadoso',
+      title: 'Atendimento personalizado',
       description: 'Atenção em cada detalhe do seu momento',
     },
     {
@@ -112,8 +112,8 @@ export const siteConfig = {
       description: 'Equipe dedicada à sua beleza',
     },
     {
-      title: 'Experiência completa',
-      description: 'Todos os cuidados em um só lugar',
+      title: 'Mais de 7 anos',
+      description: 'De experiência e dedicação',
     },
   ],
 
@@ -124,33 +124,27 @@ export const siteConfig = {
   services: [
     {
       id: 'cabelos',
-      title: 'Cabelos',
+      title: 'Cortes & Penteados',
       description: 'Cortes, tratamentos, coloração e finalizações que valorizam sua identidade.',
       image: '/images/placeholder/service-cabelos.webp', // ⚠️ PLACEHOLDER
     },
     {
       id: 'maos-pes',
-      title: 'Mãos e pés',
+      title: 'Manicure & Nails Designer',
       description: 'Cuidados completos para unhas impecáveis e momentos de relaxamento.',
       image: '/images/placeholder/service-maos-pes.webp', // ⚠️ PLACEHOLDER
     },
     {
       id: 'estetica',
-      title: 'Estética e beleza',
+      title: 'Estética Corporal',
       description: 'Procedimentos pensados para renovar, cuidar e realçar sua beleza natural.',
       image: '/images/placeholder/service-estetica.webp', // ⚠️ PLACEHOLDER
     },
     {
-      id: 'sobrancelhas',
-      title: 'Sobrancelhas',
-      description: 'Design e cuidados delicados para harmonizar e valorizar o olhar.',
+      id: 'progressiva',
+      title: 'Progressiva',
+      description: 'Alisamentos saudáveis que trazem praticidade e beleza para o seu dia a dia.',
       image: '/images/placeholder/service-sobrancelhas.webp', // ⚠️ PLACEHOLDER
-    },
-    {
-      id: 'combos',
-      title: 'Experiências e combos',
-      description: 'Combinações especiais para quem deseja viver um momento completo de autocuidado.',
-      image: '/images/placeholder/service-combos.webp', // ⚠️ PLACEHOLDER
     },
   ],
 
@@ -160,7 +154,7 @@ export const siteConfig = {
 
   experience: {
     title: 'Seu momento começa antes do resultado.',
-    text: 'Na Raiz, cada detalhe foi pensado para que você desacelere, se cuide e saia se sentindo ainda mais confiante.',
+    text: 'Na Florescer Beauty, cada detalhe foi pensado para que você desacelere, se cuide e saia se sentindo ainda mais confiante.',
     ctaText: 'Conhecer o espaço',
   },
 
@@ -170,7 +164,7 @@ export const siteConfig = {
 
   about: {
     title: 'Cuidado que valoriza quem você é.',
-    text: 'A Raiz Beleza & Estética nasceu para transformar o cuidado pessoal em uma experiência leve, acolhedora e especial. Reunimos diferentes serviços em um só espaço para que cada cliente encontre tempo para si e atenção em cada detalhe.',
+    text: 'A Florescer Beauty nasceu para transformar o cuidado pessoal em uma experiência leve, acolhedora e especial. Reunimos diferentes serviços em um só espaço para que cada cliente encontre tempo para si e atenção em cada detalhe, no Moinho dos Ventos em Goiânia.',
   },
 
   // ═══════════════════════════════════════════════
@@ -179,7 +173,7 @@ export const siteConfig = {
 
   finalCta: {
     title: 'Seu próximo momento de cuidado começa aqui.',
-    text: 'Escolha o serviço ideal para você e reserve seu horário na Raiz.',
+    text: 'Escolha o serviço ideal para você e reserve seu horário na Florescer Beauty.',
     ctaPrimary: 'Quero agendar',
     ctaSecondary: 'Falar pelo WhatsApp',
   },
@@ -219,7 +213,7 @@ export const siteConfig = {
   // ═══════════════════════════════════════════════
 
   footer: {
-    copyright: `© ${new Date().getFullYear()} Raiz Beleza & Estética. Todos os direitos reservados.`,
+    copyright: `© ${new Date().getFullYear()} Florescer Beauty. Todos os direitos reservados.`,
     privacyText: 'Política de Privacidade',
     privacyUrl: '#', // PENDENTE: inserir URL da política de privacidade
   },

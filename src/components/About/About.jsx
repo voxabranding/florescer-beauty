@@ -12,7 +12,7 @@ export default function About() {
         <div className="about__card floating-panel">
           <div className="about__inner">
             <div className="about__content">
-              <span className="section-eyebrow" data-reveal>Sobre a Raiz</span>
+              <span className="section-eyebrow" data-reveal>Sobre a Florescer</span>
               <h2 className="section-title" id="about-title" data-reveal>
                 {siteConfig.about.title}
               </h2>

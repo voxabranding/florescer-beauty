@@ -7,7 +7,7 @@ export default function Hero() {
   const { hero, brand } = siteConfig;
 
   return (
-    <section className="hero" id="inicio" aria-label="Apresentação da Raiz Beleza & Estética">
+    <section className="hero" id="inicio" aria-label="Apresentação da Florescer Beauty">
       <div className="hero__container container">
         <div className="hero__card floating-panel">
           {/* Ilustrações Botânicas em SVG sutil */}
@@ -32,8 +32,8 @@ export default function Hero() {
               </div>
 
               <h1 className="hero__title">
-                Beleza que<br />
-                começa na raiz.
+                Realçando<br />
+                sua beleza.
               </h1>
 
               <p className="hero__subtitle">{hero.subtitle}</p>

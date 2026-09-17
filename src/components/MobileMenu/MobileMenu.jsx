@@ -52,7 +52,7 @@ export default function MobileMenu({ isOpen, onClose }) {
               target="_blank"
               rel="noopener noreferrer"
               className="mobile-menu__social-link"
-              aria-label="Instagram da Raiz"
+              aria-label="Instagram da Florescer Beauty"
             >
               {siteConfig.contact.instagramHandle}
             </a>

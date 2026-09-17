@@ -40,14 +40,18 @@ export default function Header() {
       >
         <div className="header__container container">
           <div className="header__inner">
-            <a href="#" className="header__logo" aria-label="Raiz Beleza & Estética — Início">
-              <img
-                src={siteConfig.brand.logo}
-                alt="Logotipo Raiz Beleza & Estética"
-                className="header__logo-img"
-                width={130}
-                height={65}
-              />
+            <a href="#" className="header__logo" aria-label="Florescer Beauty — Início">
+              {siteConfig.brand.logo ? (
+                <img
+                  src={siteConfig.brand.logo}
+                  alt="Logotipo Florescer Beauty"
+                  className="header__logo-img"
+                  width={130}
+                  height={65}
+                />
+              ) : (
+                <span className="header__logo-text" style={{ fontFamily: 'var(--font-serif)', fontSize: 'clamp(1.5rem, 4vw, 2rem)', color: 'var(--color-brown-dark)' }}>{siteConfig.brand.shortName}</span>
+              )}
             </a>
 
             <nav className="header__nav" aria-label="Navegação principal">

@@ -2,14 +2,11 @@ import './ServicesMarquee.css';
 
 export default function ServicesMarquee() {
   const services = [
-    'Hair',
-    'Mechas premium',
-    'Exoplastia',
-    'Unhas',
-    'Design de Sobrancelha',
-    'Spa dos pés',
-    'Maquiagem',
-    'Estética facial'
+    'Manicure',
+    'Estética Corporal',
+    'Cortes & Penteados',
+    'Progressiva',
+    'Nails Designer'
   ];
 
   // Duplicar a lista para efeito de loop infinito

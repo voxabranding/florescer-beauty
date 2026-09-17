@@ -9,15 +9,19 @@ export default function Footer() {
     <footer className="footer" role="contentinfo">
       <div className="footer__inner container">
         <div className="footer__brand">
-          <img
-            src={brand.logo}
-            alt="Logotipo Raiz Beleza & Estética"
-            className="footer__logo"
-            width={120}
-            height={56}
-            style={{ aspectRatio: '2/1' }}
-            loading="lazy"
-          />
+          {brand.logo ? (
+            <img
+              src={brand.logo}
+              alt="Logotipo Florescer Beauty"
+              className="footer__logo"
+              width={120}
+              height={56}
+              style={{ aspectRatio: '2/1' }}
+              loading="lazy"
+            />
+          ) : (
+            <span className="footer__logo-text" style={{ fontFamily: 'var(--font-serif)', fontSize: '2rem', color: 'var(--color-champagne)', display: 'block', marginBottom: 'var(--space-sm)' }}>{brand.shortName}</span>
+          )}
           <p className="footer__tagline">{brand.tagline}</p>
         </div>
 
@@ -46,7 +50,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="footer__link"
-              aria-label="Instagram da Raiz"
+              aria-label="Instagram da Florescer Beauty"
             >
               Instagram {contact.instagramHandle}
             </a>
@@ -55,7 +59,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="footer__link"
-              aria-label="WhatsApp da Raiz"
+              aria-label="WhatsApp da Florescer Beauty"
             >
               WhatsApp
             </a>
